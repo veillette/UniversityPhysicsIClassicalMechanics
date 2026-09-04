@@ -29,16 +29,18 @@ Classical Mechanics*. University of Arkansas Open Educational Resources.
 - [`images/`](images/) — 117 figures used by the MyST edition
 - [`latex/`](latex/) — legacy LaTeX extraction and its image copy
 - [`scripts/`](scripts/) — conversion, cross-reference linking, and verification
+- [`.github/workflows/ci.yml`](.github/workflows/ci.yml) — pull-request verify + build
 - [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml) — GitHub Pages build
 
-## Preview and build
+## Build
 
 The project targets MyST CLI 1.10.1. You need [Node.js](https://nodejs.org/) installed.
 
 ```bash
-npm install -g mystmd@1.10.1
-myst start          # local preview with live reload
-myst build --html   # static site in _build/html/
+npm install
+npm run start          # local preview with live reload
+npm run build          # static site in _build/html/
+npm run verify         # structural checks
 ```
 
 Generated files under `_build/` are not committed.
@@ -47,10 +49,11 @@ Generated files under `_build/` are not committed.
 
 Pushes to `main` trigger [GitHub Actions](.github/workflows/deploy.yml), which:
 
-1. runs `python3 scripts/verify_book.py`
-2. builds the HTML site with `myst build --html`
+1. runs `npm run verify`
+2. builds the HTML site with `npm run build`
 3. deploys `_build/html/` to GitHub Pages
 
+Pull requests run the same verify + build via [`.github/workflows/ci.yml`](.github/workflows/ci.yml).
 You can also trigger a deploy manually from the Actions tab.
 
 ## Verification and maintenance
@@ -59,7 +62,7 @@ Structural checks (chapter count, figure parity with the legacy LaTeX source,
 missing assets, cross-references, and common conversion artifacts):
 
 ```bash
-python3 scripts/verify_book.py
+npm run verify
 ```
 
 Numbered headings, figures, equations, and tables are linked with
