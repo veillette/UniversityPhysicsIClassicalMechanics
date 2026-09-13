@@ -2,6 +2,15 @@ version: 1
 project:
   title: "University Physics I: Classical Mechanics"
   short_title: "University Physics I"
+  description: >-
+    A calculus-based introduction to classical mechanics emphasizing physical
+    models, conservation laws, rotational dynamics, waves, and thermodynamics.
+  keywords:
+    - classical mechanics
+    - university physics
+    - conservation laws
+    - rotational dynamics
+    - open textbook
   authors:
     - name: Julio Gea-Banacloche
       affiliations:
@@ -35,4 +44,6 @@ site:
   actions:
     - title: Original OER
       url: https://scholarworks.uark.edu/oer/3/
-  nav: []
+  nav:
+    - title: Sources & Attribution
+      url: https://github.com/QuadriviumPress/UniversityPhysicsIClassicalMechanics/blob/main/SOURCES.md

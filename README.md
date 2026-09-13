@@ -41,6 +41,7 @@ npm install
 npm run start          # local preview with live reload
 npm run build          # static site in _build/html/
 npm run verify         # structural checks
+npm run check          # verify and build
 ```
 
 Generated files under `_build/` are not committed.
