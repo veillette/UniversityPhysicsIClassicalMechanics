@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Run inexpensive structural checks on the converted MyST book."""
+"""Run inexpensive structural checks on the MyST book."""
 
 from __future__ import annotations
 
@@ -10,7 +10,7 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-TEX = ROOT / "latex" / "universityPhysicsIClassicalMechanics.tex"
+EXPECTED_FIGURES = 117
 
 
 def main() -> int:
@@ -19,13 +19,13 @@ def main() -> int:
     if len(chapters) != 13:
         errors.append(f"expected 13 chapters, found {len(chapters)}")
 
-    tex = TEX.read_text(encoding="utf-8")
-    expected_images = len(re.findall(r"\\includegraphics[^\{]*\{[^}]+\}", tex))
     markdown = "\n".join(path.read_text(encoding="utf-8") for path in chapters)
     image_targets = re.findall(r"^!\[[^]]*\]\((.*)\)$", markdown, flags=re.MULTILINE)
     image_targets += re.findall(r"^:::\{figure\}\s+(\S+)\s*$", markdown, flags=re.MULTILINE)
-    if len(image_targets) != expected_images:
-        errors.append(f"expected {expected_images} figure references, found {len(image_targets)}")
+    if len(image_targets) != EXPECTED_FIGURES:
+        errors.append(
+            f"expected {EXPECTED_FIGURES} figure references, found {len(image_targets)}"
+        )
 
     for chapter in chapters:
         content = chapter.read_text(encoding="utf-8")

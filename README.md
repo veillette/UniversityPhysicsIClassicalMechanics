@@ -2,8 +2,7 @@
 
 This repository contains a web-native [MyST Markdown](https://mystmd.org/) edition of
 Julio Gea-Banacloche's *University Physics I: Classical Mechanics*. The root-level
-MyST project is the primary, editable edition. The previous PDF-derived LaTeX
-extraction is preserved under [`latex/`](latex/) for provenance and comparison.
+MyST project is the primary, editable edition.
 
 **Live site:** [quadriviumpress.github.io/universityPhysicsIClassicalMechanics](https://quadriviumpress.github.io/universityPhysicsIClassicalMechanics/)
 
@@ -27,8 +26,7 @@ Classical Mechanics*. University of Arkansas Open Educational Resources.
 - [`index.md`](index.md) and [`preface.md`](preface.md) — front matter
 - [`chapters/`](chapters/) — thirteen MyST Markdown chapters
 - [`images/`](images/) — 117 figures used by the MyST edition
-- [`latex/`](latex/) — legacy LaTeX extraction and its image copy
-- [`scripts/`](scripts/) — conversion, cross-reference linking, and verification
+- [`scripts/`](scripts/) — cross-reference linking and verification
 - [`.github/workflows/ci.yml`](.github/workflows/ci.yml) — pull-request verify + build
 - [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml) — GitHub Pages build
 
@@ -59,8 +57,8 @@ You can also trigger a deploy manually from the Actions tab.
 
 ## Verification and maintenance
 
-Structural checks (chapter count, figure parity with the legacy LaTeX source,
-missing assets, cross-references, and common conversion artifacts):
+Structural checks (chapter count, figure references, missing assets,
+cross-references, and common conversion artifacts):
 
 ```bash
 npm run verify
@@ -76,18 +74,7 @@ python3 scripts/link_cross_references.py --check --diff
 ```
 
 The linker fails on duplicate targets and reports unresolved or missing
-references with file and line numbers. It runs automatically after LaTeX
-conversion and as part of verification.
-
-To regenerate the Markdown mechanically from the archived LaTeX extraction
-(requires [Pandoc](https://pandoc.org/)):
-
-```bash
-python3 scripts/convert_latex_to_myst.py
-```
-
-The generated chapters are intended to be reviewed and improved as MyST; the
-LaTeX extraction remains available to cross-check any questionable passage.
+references with file and line numbers. It runs as part of verification.
 
 ## Contributing
 

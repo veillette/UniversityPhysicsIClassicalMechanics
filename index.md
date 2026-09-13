@@ -15,8 +15,7 @@ mechanics for scientists and engineers, followed by waves and a brief
 introduction to thermodynamics.
 
 This edition preserves the content of the source textbook. Its canonical
-source is the MyST Markdown in this repository; the earlier PDF-derived LaTeX
-extraction is retained under `latex/` for provenance and comparison.
+source is the MyST Markdown in this repository.
 
 ## Source and license
 
