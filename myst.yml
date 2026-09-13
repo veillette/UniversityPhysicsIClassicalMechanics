@@ -21,7 +21,7 @@ project:
   date: 2019-02-08
   license: CC-BY-SA-4.0
   open_access: true
-  github: QuadriviumPress/UniversityPhysicsIClassicalMechanics
+  github: QuadriviumPress/universityPhysicsIClassicalMechanics
   toc:
     - file: index.md
     - file: preface.md
@@ -46,4 +46,4 @@ site:
       url: https://scholarworks.uark.edu/oer/3/
   nav:
     - title: Sources & Attribution
-      url: https://github.com/QuadriviumPress/UniversityPhysicsIClassicalMechanics/blob/main/SOURCES.md
+      url: https://github.com/QuadriviumPress/universityPhysicsIClassicalMechanics/blob/main/SOURCES.md

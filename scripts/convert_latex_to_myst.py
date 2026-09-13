@@ -16,7 +16,7 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-SOURCE = ROOT / "latex" / "UniversityPhysicsIClassicalMechanics.tex"
+SOURCE = ROOT / "latex" / "universityPhysicsIClassicalMechanics.tex"
 CHAPTERS = ROOT / "chapters"
 
 TITLES = [

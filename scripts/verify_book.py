@@ -10,7 +10,7 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-TEX = ROOT / "latex" / "UniversityPhysicsIClassicalMechanics.tex"
+TEX = ROOT / "latex" / "universityPhysicsIClassicalMechanics.tex"
 
 
 def main() -> int:
