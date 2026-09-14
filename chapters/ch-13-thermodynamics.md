@@ -64,6 +64,7 @@ Put differently, and somewhat fancifully, substances with a large specific heat 
 
 :::{figure} ../images/2024_09_14_9969b06773f10b6936e8g-324.jpg
 :label: fig-13.1
+:alt: In this simple model of a gas of diatomic molecules, each molecule can store "vibrational" potential energy (both potential and kinetic, through the oscillations of the "spring" that models the interaction between the atoms), plus as at least two kinds of rotational kinetic energy (corresponding to rotations around the axes shown), in addition to just the translational kinetic energy of its center of mass. The latter is the only one directly measured by a gas thermometer, so a diatomic gas has many more ways of "hiding" its thermal energy (and hence, a larger specific heat) than a monoatomic gas.
 In this simple model of a gas of diatomic molecules, each molecule can store \"vibrational\" potential energy (both potential and kinetic, through the oscillations of the \"spring\" that models the interaction between the atoms), plus as at least two kinds of rotational kinetic energy (corresponding to rotations around the axes shown), in addition to just the translational kinetic energy of its center of mass. The latter is the only one directly measured by a gas thermometer, so a diatomic gas has many more ways of \"hiding\" its thermal energy (and hence, a larger specific heat) than a monoatomic gas.
 :::
 
@@ -108,6 +109,7 @@ By using an ideal (or nearly ideal) gas as a thermometer, based on {numref}`Eq. 
 
 :::{figure} ../images/2024_09_14_9969b06773f10b6936e8g-326.jpg
 :label: fig-13.2
+:alt: Illustrating how a gas thermometer can be used to define the Kelvin, or absolute, temperature scale.
 Illustrating how a gas thermometer can be used to define the Kelvin, or absolute, temperature scale.
 :::
 

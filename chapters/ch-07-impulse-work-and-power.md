@@ -78,6 +78,7 @@ This can also be expressed in terms of the vectors' magnitudes, $|\vec{A}|$ and 
 
 :::{figure} ../images/2024_09_14_9969b06773f10b6936e8g-157.jpg
 :label: fig-7.1
+:alt: Illustrating the angle phi to be used when calculating the dot product of two vectors by the formula. One way to think of this formula is that you take the projection of vector A vector onto vector B vector (indicated here by the blue lines), which is equal to |A vector| cos phi, then multiply that by the length of B vector (or vice-versa, of course).
 Illustrating the angle $\phi$ to be used when calculating the dot product of two vectors by the formula {eq}`eq-7.7`. One way to think of this formula is that you take the projection of vector $\vec{A}$ onto vector $\vec{B}$ (indicated here by the blue lines), which is equal to $|\vec{A}| \cos \phi$, then multiply that by the length of $\vec{B}$ (or vice-versa, of course).
 :::
 
@@ -147,6 +148,7 @@ This is not necessarily a problem in the case of a rigid object which is not doi
 
 :::{figure} ../images/2024_09_14_9969b06773f10b6936e8g-160.jpg
 :label: fig-7.2
+:alt: A system of two blocks connected by a spring. A constant external force, F vectorh, 2c, is applied to the block on the right. Initially the spring is relaxed, but as soon as block 2 starts to move it stretches, pulling back on block 2 and pulling forward on block 1. Because of the stretching of the spring, the displacements delta x1, delta xc m and delta x2 are all different, and the work done by the external force, Fh, 2c delta x2, is different from the "center of mass work" Fh, 2c delta xc m.
 A system of two blocks connected by a spring. A constant external force, $\vec{F}_{h, 2}^{c}$, is applied to the block on the right. Initially the spring is relaxed, but as soon as block 2 starts to move it stretches, pulling back on block 2 and pulling forward on block 1. Because of the stretching of the spring, the displacements $\Delta x_{1}, \Delta x_{c m}$ and $\Delta x_{2}$ are all different, and the work done by the external force, $F_{h, 2}^{c} \Delta x_{2}$, is different from the \"center of mass work\" $F_{h, 2}^{c} \Delta x_{c m}$.
 :::
 
@@ -241,6 +243,7 @@ As another example, imagine you throw a ball of mass $m$ upwards (see {numref}`F
 ball goes up a little while in contact with your hand), and the rest, which is typically most of it, goes into increasing the system's kinetic energy (in this case, just the ball's; the earth's kinetic energy does not change in any measurable way!).\
 :::{figure} ../images/2024_09_14_9969b06773f10b6936e8g-163.jpg
 :label: fig-7.3
+:alt: Tossing a ball into the air. We consider the system formed by the ball and the earth. The force exerted by the hand (which is in contact with the ball from point A to point B ) is therefore an external force. The diagrams show the system's energy balance over three different intervals.
 Tossing a ball into the air. We consider the system formed by the ball and the earth. The force exerted by the hand (which is in contact with the ball from point A to point B ) is therefore an external force. The diagrams show the system's energy balance over three different intervals.
 :::
 
@@ -264,6 +267,7 @@ As you can see, during the throw the hand does positive work, whereas gravity do
 
 :::{figure} ../images/2024_09_14_9969b06773f10b6936e8g-165.jpg
 :label: fig-7.4
+:alt: Work-energy balance diagrams for the same toss illustrated in, but now the system is taken to be the ball only.
 Work-energy balance diagrams for the same toss illustrated in {numref}`Fig. %s <fig-7.3>`, but now the system is taken to be the ball only.
 :::
 
@@ -284,6 +288,7 @@ To see the idea, consider, for example, the situation in {numref}`Figure %s <fig
 
 :::{figure} ../images/2024_09_14_9969b06773f10b6936e8g-166.jpg
 :label: fig-7.5
+:alt: Block sliding on a surface, with friction, being pulled by a rope attached to a block falling under the action of gravity. The motion of this system was solved for in.
 Block sliding on a surface, with friction, being pulled by a rope attached to a block falling under the action of gravity. The motion of this system was solved for in {ref}`Section 6.3 <sec-6.3>`.
 :::
 
@@ -506,7 +511,7 @@ We can now put all this together to show that {numref}`Eq. %s <eq-7.20>` indeed 
 
 To plot all this as energy bars, if you do not have access to a very precise drawing program, you typically have to make some approximations. In this case, we see that $\Delta K_{2}=2 \Delta K_{1}$ (exactly), whereas $\Delta K_{1} \simeq 2 \Delta E_{\text {diss }}$, so we can use one box to represent $E_{\text {diss }}$, two boxes for $\Delta K_{1}$, three for $W_{\text {ext, } A}$, four for $\Delta K_{2}$, and so on. The result is shown in green in the picture below; the blue bars have been drawn more exactly to scale, and are shown for your information only.
 
-![image](../images/2024_09_14_9969b06773f10b6936e8g-173.jpg)
+![Energy bar diagram for the work problem](../images/2024_09_14_9969b06773f10b6936e8g-173.jpg)
 
 (sec-7.7.3)=
 ### 7.7.3 Work, energy and the choice of system: non-dissipative case

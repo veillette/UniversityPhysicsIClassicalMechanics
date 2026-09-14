@@ -211,6 +211,7 @@ As you can see, this is negative if $x>x_{0}>0$ (spring stretched, pulling force
 
 :::{figure} ../images/2024_09_14_9969b06773f10b6936e8g-137.jpg
 :label: fig-6.1
+:alt: Forces (in black) exerted by a spring with one end attached to a wall and the other pushed or pulled by a hand (not shown). In every case the force is proportional to the change in the length of the spring from its equilibrium, or relaxed, value, shown here as x0. For this figure I have set the proportionality constant k=1. The forces exerted on the spring, by the wall and by the hand, are shown in red.
 Forces (in black) exerted by a spring with one end attached to a wall and the other pushed or pulled by a hand (not shown). In every case the force is proportional to the change in the length of the spring from its equilibrium, or relaxed, value, shown here as $x_{0}$. For this figure I have set the proportionality constant $k=1$. The forces exerted on the spring, by the wall and by the hand, are shown in red.
 :::
 
@@ -249,6 +250,7 @@ Two things need to be realized now. First, if the rope is inextensible, both blo
 
 :::{figure} ../images/2024_09_14_9969b06773f10b6936e8g-139.jpg
 :label: fig-6.2
+:alt: Two blocks joined by a massless, inextensible strength threaded over a massless pulley. An optional friction force (in red, where f r could be either s or k ) is shown for use later, in the discussion in subsection 3.3. In this subsection, however, it is assumed to be zero.
 Two blocks joined by a massless, inextensible strength threaded over a massless pulley. An optional friction force (in red, where $f r$ could be either $s$ or $k$ ) is shown for use later, in the discussion in subsection 3.3. In this subsection, however, it is assumed to be zero.
 :::
 
@@ -391,6 +393,7 @@ The figure below (next page) shows, as an example, a free-body diagram for block
 
 :::{figure} ../images/2024_09_14_9969b06773f10b6936e8g-145.jpg
 :label: fig-6.3
+:alt: Free-body diagram for block 1 in, with the friction force adjusted so as to be compatible with a nonzero acceleration to the right.
 Free-body diagram for block 1 in {numref}`Figure %s <fig-6.2>`, with the friction force adjusted so as to be compatible with a nonzero acceleration to the right.
 :::
 
@@ -505,7 +508,7 @@ $$F=m a=1400 \mathrm{~kg} \times 1.34 \frac{\mathrm{m}}{\mathrm{s}^{2}}=1880 \ma
 \(b\) The force must be provided by the road, which is the only thing external to the car that is in contact with it. The force is, in fact, the force of static friction between the car and the tires. As explained in the chapter, this is a reaction force (the tires push on the road, and the road pushes back). It is static friction because the tires are not slipping relative to the road. In fact, we will see in {ref}`Chapter 9 <ch-9>` that the point of the tire in contact with the road has an instantaneous velocity of zero (see {numref}`Figure %s <fig-9.8>`).\
 (c) This is the free-body diagram. Note the force of static friction pointing forward, in the direction of the acceleration. The forces have been drawn to scale.
 
-![image](../images/2024_09_14_9969b06773f10b6936e8g-149.jpg)
+![Free-body diagram of a car accelerating](../images/2024_09_14_9969b06773f10b6936e8g-149.jpg)
 (d) This is the opposite of part (a): the driver now relies on the force of static friction to slow down the car. The shortest stopping distance will correspond to the largest (in magnitude) acceleration, as per our old friend, {numref}`Eq. %s <eq-2.10>`:
 
 :::{math}
@@ -531,7 +534,7 @@ $$\Delta x=\frac{v_{i}^{2}}{2 \mu_{s} g}=\frac{(13.4 \mathrm{~m} / \mathrm{s})^{
 
 \(e\) Here is the free-body diagram. The interesting feature is that the force of static friction has reversed direction relative to parts (a)-(c). It is also much larger than before. (The forces are again to scale.)
 
-![image](../images/2024_09_14_9969b06773f10b6936e8g-150.jpg)
+![Free-body diagram of a car braking with kinetic friction](../images/2024_09_14_9969b06773f10b6936e8g-150.jpg)
 (f) The math for this part is basically identical to that in part (d). The difference, physically, is that now you are dealing with the force of kinetic (or \"sliding\") friction, and that is always given by $F^{k}=\mu_{k} F^{n}$ (this is not an upper limit, it's just what $F^{k}$ is). So we have $a=-F^{k} / m=-\mu_{k} g$, and, just as before (but with $\mu_{k}$ replacing $\mu_{s}$ ),
 
 $$\Delta x=\frac{v_{i}^{2}}{2 \mu_{k} g}=\frac{(13.4 \mathrm{~m} / \mathrm{s})^{2}}{2 \times 0.2 \times 9.81 \mathrm{~m} / \mathrm{s}^{2}}=45.8 \mathrm{~m}$$

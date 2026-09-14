@@ -23,6 +23,7 @@ But what if the objects colliding have different inertias? We expect that the ch
 
 :::{figure} ../images/2024_09_14_9969b06773f10b6936e8g-070.jpg
 :label: fig-3.1
+:alt: An example of a velocity vs. time graph for a collision of two objects with different inertias.
 An example of a velocity vs. time graph for a collision of two objects with different inertias.
 :::
 
@@ -35,6 +36,7 @@ To begin with, we have reason to expect that it does not matter whether we shoot
 
 :::{figure} ../images/2024_09_14_9969b06773f10b6936e8g-071.jpg
 :label: fig-3.2
+:alt: Another example (really the same collision as in Figure 1, only as seen by an observer initially moving to the right at 1 ~m / s).
 Another example (really the same collision as in Figure 1, only as seen by an observer initially moving to the right at $1 \mathrm{~m} / \mathrm{s})$.
 :::
 
@@ -49,6 +51,7 @@ Now the two objects end up moving together to the right, fairly slowly: $v_{1 f}
 
 :::{figure} ../images/2024_09_14_9969b06773f10b6936e8g-072.jpg
 :label: fig-3.3
+:alt: What would happen if the objects in Figure 1 became stuck together when they collided.
 What would happen if the objects in Figure 1 became stuck together when they collided.
 :::
 
@@ -211,6 +214,7 @@ Figure 4 shows that this simple prescription does result in motion with constant
 
 :::{figure} ../images/2024_09_14_9969b06773f10b6936e8g-078.jpg
 :label: fig-3.4
+:alt: Position vs. time graph for the objects colliding in Figure 1. The green line shows the position of the center of mass as a function of time.
 Position vs. time graph for the objects colliding in Figure 1. The green line shows the position of the center of mass as a function of time.
 :::
 
@@ -274,6 +278,7 @@ The graph shows a collision between two carts (possibly equipped with magnets so
 
 :::{figure} ../images/2024_09_14_9969b06773f10b6936e8g-081.jpg
 :label: fig-3.5
+:alt: A collision between two carts.
 A collision between two carts.
 :::
 
@@ -422,7 +427,7 @@ This figure shows the position vs. time graph for two objects before and after t
 (a) What are the velocities of the two objects before and after the collision? (Hint: you will get a more accurate result if you choose the initial and final times where the lines go exactly through a point on the grid shown.)\
 (b) Given the result in (a), what is the ratio of the inertias of the two objects?
 
-![image](../images/2024_09_14_9969b06773f10b6936e8g-085.jpg)
+![Position versus time graph for two objects before and after collision](../images/2024_09_14_9969b06773f10b6936e8g-085.jpg)
 
 (ch-3-problem-2)=
 ### Problem 2

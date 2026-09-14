@@ -36,6 +36,7 @@ To gain some further insights into the concept of kinetic energy, and the ways i
 
 :::{figure} ../images/2024_09_14_9969b06773f10b6936e8g-088.jpg
 :label: fig-4.1
+:alt: Elastic collision in an isolated system. (.)
 Elastic collision in an isolated system. ({numref}`Figure %s <fig-3.1>`.)\
 :::
 
@@ -54,6 +55,7 @@ This belief may be reinforced if we look next at the collision depicted in Figur
 
 :::{figure} ../images/2024_09_14_9969b06773f10b6936e8g-089.jpg
 :label: fig-4.2
+:alt: Another elastic collision, equivalent to the one in Figure 1 as seen from another reference frame. (.)
 Another elastic collision, equivalent to the one in Figure 1 as seen from another reference frame. ({numref}`Figure %s <fig-3.2>`.)
 :::
 
@@ -64,6 +66,7 @@ Things are, however, very different when we consider the third collision example
 
 :::{figure} ../images/2024_09_14_9969b06773f10b6936e8g-090.jpg
 :label: fig-4.3
+:alt: A totally inelastic collision. (.)
 A totally inelastic collision. ({numref}`Figure %s <fig-3.3>`.)
 :::
 
@@ -152,6 +155,7 @@ For an elastic collision, $e=1$, as required by {numref}`Eq. %s <eq-4.4>`. For a
 
 :::{figure} ../images/2024_09_14_9969b06773f10b6936e8g-093.jpg
 :label: fig-4.4
+:alt: An e=0.6 collision between objects with the same inertias and initial velocities as in Figure 1.
 An $e=0.6$ collision between objects with the same inertias and initial velocities as in Figure 1.
 :::
 
@@ -166,6 +170,7 @@ An extreme example of a situation with $e>0$ is an explosive separation, which i
 
 :::{figure} ../images/2024_09_14_9969b06773f10b6936e8g-094.jpg
 :label: fig-4.5
+:alt: The total kinetic energy as a function of time for the collisions shown in Figures 1, 3 and 4, respectively.
 The total kinetic energy as a function of time for the collisions shown in Figures 1, 3 and 4, respectively.
 :::
 

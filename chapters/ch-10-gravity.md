@@ -24,6 +24,7 @@ For the rest of this chapter, we will simply assume that {numref}`Eq. %s <eq-10.
 
 :::{figure} ../images/2024_09_14_9969b06773f10b6936e8g-240.jpg
 :label: fig-10.1
+:alt: The moon, the earth, and the distance between them, all approximately to scale.
 The moon, the earth, and the distance between them, all approximately to scale.
 :::
 
@@ -115,6 +116,7 @@ For finite-sized objects, you cannot continue to use an equation like {eq}`eq-10
 
 :::{figure} ../images/2024_09_14_9969b06773f10b6936e8g-244.jpg
 :label: fig-10.2
+:alt: Gravitational potential energy of a system formed by a particle of mass m and a hypothetical earth with uniform density, a mass M, and a radius RE, as a function of the distance r between the particle and the center of the "earth" (solid line). The dashed line shows the result for a system of two (point-like) particles. The energy UG is expressed in units of m g RE, where g=G M / RE2.
 Gravitational potential energy of a system formed by a particle of mass $m$ and a hypothetical earth with uniform density, a mass $M$, and a radius $R_{E}$, as a function of the distance $r$ between the particle and the center of the \"earth\" (solid line). The dashed line shows the result for a system of two (point-like) particles. The energy $U^{G}$ is expressed in units of $m g R_{E}$, where $g=G M / R_{E}^{2}$.
 :::
 
@@ -157,6 +159,7 @@ You will find that, as long as you do not give the satellite - or planet, in the
 
 :::{figure} ../images/2024_09_14_9969b06773f10b6936e8g-246.jpg
 :label: fig-10.3
+:alt: An elliptical orbit. The semimajor axis is a, the semiminor axis is b, and the eccentricity e=square root of 1-b2 / a2=0.745 in this case.. The "center of attraction" (the sun, for instance, in the case of a planet's or comet's orbit) is at the point O.
 An elliptical orbit. The semimajor axis is $a$, the semiminor axis is $b$, and the eccentricity $e=\sqrt{1-b^{2} / a^{2}}=0.745$ in this case.. The \"center of attraction\" (the sun, for instance, in the case of a planet's or comet's orbit) is at the point $O$.
 :::
 
@@ -181,6 +184,7 @@ The ellipse I have drawn in {numref}`Fig. %s <fig-10.3>` is actually way too ecc
 
 :::{figure} ../images/2024_09_14_9969b06773f10b6936e8g-247.jpg
 :label: fig-10.4
+:alt: Orbit of Mercury, with the sun approximately to scale.
 Orbit of Mercury, with the sun approximately to scale.
 :::
 
@@ -214,6 +218,7 @@ elliptical orbit (of which a circle is a special case, if you give it the precis
 
 :::{figure} ../images/2024_09_14_9969b06773f10b6936e8g-249.jpg
 :label: fig-10.5
+:alt: Possible trajectories for an object that is "released" with a sideways velocity at the lowest point in the figure, under the gravitational attraction of a large mass represented by the black circle. Each trajectory corresponds to a different value of the object's initial kinetic energy: if Kc i r c is the kinetic energy needed to have a circular orbit through the point of release, the figure shows the cases Ki=0.5 Ktext circ (small ellipse), Ki=Kc i r c (circle), Ki=1.5 Kc i r c (large ellipse), Ki=2 Kc i r c (escape velocity, parabola), and Ki=2.5 Ktext circ (hyperbola)
 Possible trajectories for an object that is \"released\" with a sideways velocity at the lowest point in the figure, under the gravitational attraction of a large mass represented by the black circle. Each trajectory corresponds to a different value of the object's initial kinetic energy: if $K_{c i r c}$ is the kinetic energy needed to have a circular orbit through the point of release, the figure shows the cases $K_{i}=0.5 K_{\text {circ }}$ (small ellipse), $K_{i}=K_{c i r c}$ (circle), $K_{i}=1.5 K_{c i r c}$ (large ellipse), $K_{i}=2 K_{c i r c}$ (escape velocity, parabola), and $K_{i}=2.5 K_{\text {circ }}$ (hyperbola)
 :::
 
@@ -232,6 +237,7 @@ which shows how the eccentricity increases as $L$ decreases, for a given value o
 
 :::{figure} ../images/2024_09_14_9969b06773f10b6936e8g-250.jpg
 :label: fig-10.6
+:alt: Effect of the "angle of insertion" on the orbit.
 Effect of the \"angle of insertion\" on the orbit.
 :::
 
@@ -254,6 +260,7 @@ I have discussed the first \"law\" at length in the previous section, and also p
 
 :::{figure} ../images/2024_09_14_9969b06773f10b6936e8g-251.jpg
 :label: fig-10.7
+:alt: Illustrating Kepler's law of areas. The two gray "curved triangles" have the same area, so the particle must take the same time to go from A to Aprime as it does to go from B to Bprime.
 Illustrating Kepler's law of areas. The two gray \"curved triangles\" have the same area, so the particle must take the same time to go from $A$ to $A^{\prime}$ as it does to go from $B$ to $B^{\prime}$.
 :::
 
@@ -319,6 +326,7 @@ So, the kind of acceleration you get from gravity is, paradoxically, such that, 
 
 :::{figure} ../images/2024_09_14_9969b06773f10b6936e8g-255.jpg
 :label: fig-10.8
+:alt: If you are holding something while in free fall (a) and let go, since you are all accelerating at the same rate, it stays in the same position relative to you (b), so it appears to be weightless.
 If you are holding something while in free fall (a) and let go, since you are all accelerating at the same rate, it stays in the same position relative to you (b), so it appears to be weightless.
 :::
 
@@ -330,15 +338,16 @@ Newton's second law).
 
 :::{figure} ../images/2024_09_14_9969b06773f10b6936e8g-256.jpg
 :label: fig-10.9
+:alt: (a) In free fall, your skeleton (represented here by a relaxed spring) does not need to support your upper body, so there is no sensation of weight. When standing on the ground motionless under the influence of gravity, however (b), every part of your body needs to compress a little in order to support the weight of the parts above it (as shown here by the compressed spring). The same compression, and hence the same subjective sensation of weight, results if you are moving upwards with an acceleration a=g, but in the absence of gravity (c). (The subscripts u and l on the forces stand for "upper" and "lower" body, respectively.)
 (a) In free fall, your skeleton (represented here by a relaxed spring) does not need to support your upper body, so there is no sensation of weight. When standing on the ground motionless under the influence of gravity, however (b), every part of your body needs to compress a little in order to support the weight of the parts above it (as shown here by the compressed spring). The same compression, and hence the same subjective sensation of weight, results if you are moving upwards with an acceleration $a=g$, but in the absence of gravity (c). (The subscripts $u$ and $l$ on the forces stand for \"upper\" and \"lower\" body, respectively.)
 :::
 
 (a) gravity $g, a=-g$
 
-![image](../images/2024_09_14_9969b06773f10b6936e8g-256(1).jpg)
+![Elevator free-body diagram with gravity and upward acceleration minus g](../images/2024_09_14_9969b06773f10b6936e8g-256(1).jpg)
 (b) gravity $g, a=0$
 
-![image](../images/2024_09_14_9969b06773f10b6936e8g-256(2).jpg)
+![Elevator free-body diagram with gravity and zero acceleration](../images/2024_09_14_9969b06773f10b6936e8g-256(2).jpg)
 (c) no gravity, $a=g$
 
 In general, then, when your whole body is subjected to an upward acceleration $a$, it feels like your weight is increased by an amount $m a$. The same thing holds regardless of direction - a forward acceleration $a$ on a jet pilot's body feels like a \"weight\" ma pushing her against her seat. This is why these \"effective forces\" (or, more precisely, the accelerations that cause them) are measured in $g$ 's: a \"force\" of, say, $5 g$, means that the pilot feels pushed against her seat with a \"force\" equal to 5 times her weight. What's really happening, of course, is the opposite - her seat is pushing her forward, but her internal organs are being compressed (in order to provide that same forward acceleration) the way they would under a gravity force five times stronger than at the earth's surface.
@@ -348,6 +357,7 @@ illustrates what happens when you drop something while traveling in the upwardly
 
 :::{figure} ../images/2024_09_14_9969b06773f10b6936e8g-257.jpg
 :label: fig-10.10
+:alt: "Dropping" an object inside a constantly accelerating rocket, away from any gravity.
 \"Dropping\" an object inside a constantly accelerating rocket, away from any gravity.
 :::
 
@@ -428,7 +438,7 @@ the semimajor axis $a$ must have gone down. For the original circular orbit, we 
 (c) The capsule speeds up in its new orbit because, as we just saw, it starts as far away from the Earth as it's going to get; therefore, as it moves it will start getting closer to the Earth, and we know from Kepler's second law that as it gets closer it has to speed up. (You can also say that, as it gets closer, the gravitational potential energy of the system will go down, and therefore its kinetic energy must increase.)\
 (d) The easiest way to change the new orbit to a circular orbit with radius $r_{\text {min }}$ would be to perform another speed-reduction maneuver, but this time at perigee. At perigee, the distance to the Earth is already $r_{\text {min }}$, which is what you want it to be, but the capsule is moving too fast to stay on a circular orbit (put differently, the gravitational force of the Earth at that point is too weak to bend the orbit into a circle): that is why it eventually ends up \"overshooting\" the Earth on the other side. Reducing $v$ will further reduce $E$ and, by the same argument as above, it will result in an orbit with a smaller $a$, which is what you want (since, at the moment, $a>r_{\text {min }}$, and you want the new $a$ to be equal to $r_{\text {min }}$ ).
 
-![image](../images/2024_09_14_9969b06773f10b6936e8g-262.jpg)
+![Orbital maneuver diagram showing original and elliptical orbits](../images/2024_09_14_9969b06773f10b6936e8g-262.jpg)
 
 The diagram of the situation is above (previous page). The long-dash circle is the original orbit; the solid line is the elliptical orbit resulting from the speed reduction at point A; the short-dash circle is the circular orbit that would result from another speed reduction at the point P. Note: the size of the orbits is greatly exaggerated compared to those in the early space flights, which were much closer to the Earth!
 
@@ -502,12 +512,13 @@ forces from the primary will result in a net torque on the satellite that will t
 
 :::{figure} ../images/2024_09_14_9969b06773f10b6936e8g-266.jpg
 :label: fig-10.11
+:alt: An elongated moon revolving around a planet in a clockwise orbit, and at the same time rotating clockwise around an axis through its center. In (a), the rotation is too fast, resulting in a counterclockwise "tidal torque." In (b), the rotation is too slow, and the "tidal torque" is clockwise. In both cases, the torque is due to the moon's misalignment, and to the gravitational force on its near side being stronger than on its far side, as shown by the blue force vectors.
 An elongated moon revolving around a planet in a clockwise orbit, and at the same time rotating clockwise around an axis through its center. In (a), the rotation is too fast, resulting in a counterclockwise \"tidal torque.\" In (b), the rotation is too slow, and the \"tidal torque\" is clockwise. In both cases, the torque is due to the moon's misalignment, and to the gravitational force on its near side being stronger than on its far side, as shown by the blue force vectors.
 :::
 
 (a)
 
-![image](../images/2024_09_14_9969b06773f10b6936e8g-266(1).jpg)
+![Tidal locking on an elongated moon, panel (a)](../images/2024_09_14_9969b06773f10b6936e8g-266(1).jpg)
 (b)
 
 Note that, by the same argument, we would expect the tidal forces on the Earth due to the moon to try and bring the Earth into tidal locking with the moon - that is, to try to bring the duration of an Earth day closer to that of a lunar month. Indeed, the moon's tidal forces have been slowing down the Earth's rotation for billions of years now, and continue to do so by about 15 microseconds every year. This process requires dissipation of energy, (which is in fact associated with the ocean tides: think of the frictional forces caused by the waves, as the tide comes in and out); however, to the extent that the Earth-moon system may be treated as isolated, its total angular momentum cannot change, and so the slowing-down of the Earth is accompanied by a very gradual increase in the radius of the moon's orbit-about 3.8 cm per year, currently-to keep the total angular momentum constant.

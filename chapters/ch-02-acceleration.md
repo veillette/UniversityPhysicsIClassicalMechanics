@@ -83,6 +83,7 @@ Starting at $t=0$, and keeping an eye on the slope of the $x$-vs- $t$ curve, we 
 
 :::{figure} ../images/2024_09_14_9969b06773f10b6936e8g-054.jpg
 :label: fig-2.1
+:alt: A possible position vs. time graph for an object whose acceleration changes with time.
 A possible position vs. time graph for an object whose acceleration changes with time.
 :::
 
@@ -93,17 +94,18 @@ Next, as we just look past $t=4 \mathrm{~s}$, something else interesting happens
 You can probably figure out on your own now what happens after $t=6 \mathrm{~s}$, reasoning as I did above, but you may also have noticed a pattern that makes this kind of analysis a lot easier. The acceleration (as those with a knowledge of calculus may have understood already), being proportional to the second derivative of the function $x(t)$ with respect to $t$, is directly related to the curvature of the $x$-vs- $t$ graph. As {numref}`Figure %s <fig-2.2>` below shows, if the graph is concave (sometimes\
 called \"concave upwards\"), the acceleration is positive, whereas it is negative whenever the graph is convex (or \"concave downwards\"). It is (instantly) zero at those points where the curvature changes (which you may know as inflection points), as well as over stretches of time when the $x$-vs- $t$ graph is a straight line (motion with constant velocity).
 
-![image](../images/2024_09_14_9969b06773f10b6936e8g-055(2).jpg)
+![Position-time graph with positive acceleration](../images/2024_09_14_9969b06773f10b6936e8g-055(2).jpg)
 $a>0$
 
 :::{figure} ../images/2024_09_14_9969b06773f10b6936e8g-055.jpg
 :label: fig-2.2
+:alt: What the x-vs- t curves look like for the different possible signs of the acceleration.
 What the $x$-vs- $t$ curves look like for the different possible signs of the acceleration.
 :::
 
 $a<0$
 
-![image](../images/2024_09_14_9969b06773f10b6936e8g-055(1).jpg)
+![Position-time graph with zero acceleration](../images/2024_09_14_9969b06773f10b6936e8g-055(1).jpg)
 $a=0$\
 
 {numref}`Figure %s <fig-2.3>` (in the next page) shows position, velocity, and acceleration versus time for a hypothetical motion case. Please study it carefully until every feature of every graph makes sense, relative to the other two! You will see many other examples of this in the homework and the lab.
@@ -113,6 +115,7 @@ Notice that, in all these figures, the sign of $x$ or $v$ at any given time has 
 
 :::{figure} ../images/2024_09_14_9969b06773f10b6936e8g-056.jpg
 :label: fig-2.3
+:alt: Sample position, velocity and acceleration vs. time graphs for motion with piecewise-constant acceleration.
 Sample position, velocity and acceleration vs. time graphs for motion with piecewise-constant acceleration.
 :::
 
@@ -163,6 +166,7 @@ triangle of base $\Delta t$ and height $v_{f}-v_{i}$. Since $v_{f}-v_{i}=a \Delt
 
 :::{figure} ../images/2024_09_14_9969b06773f10b6936e8g-058.jpg
 :label: fig-2.4
+:alt: Graphical way to find the displacement for motion with constant acceleration.
 Graphical way to find the displacement for motion with constant acceleration.
 :::
 
@@ -354,7 +358,7 @@ The graphs for this motion are shown earlier in the chapter, in {numref}`Figure 
 
 You get on your bicycle and ride it with a constant acceleration of $0.5 \mathrm{~m} / \mathrm{s}^{2}$ for 20 s . After that, you continue riding at a constant velocity for a distance of 200 m . Finally, you slow to a stop, with a constant acceleration, over a distance of 20 m .
 
-![image](../images/2024_09_14_9969b06773f10b6936e8g-066.jpg)
+![Bicycle trip with constant acceleration segments](../images/2024_09_14_9969b06773f10b6936e8g-066.jpg)
 (a) How far did you travel while you were accelerating at $0.5 \mathrm{~m} / \mathrm{s}^{2}$, and what was your velocity at the end of that interval?\
 (b) After that, how long did it take you to cover the next 200 m ?\
 (c) What was your acceleration while you were slowing down to a stop, and how long did it take you to come to a stop?\

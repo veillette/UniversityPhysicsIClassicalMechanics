@@ -15,6 +15,7 @@ To begin with, recall that a vector is a quantity that has both a magnitude and 
 
 :::{figure} ../images/2024_09_14_9969b06773f10b6936e8g-180.jpg
 :label: fig-8.1
+:alt: The components of a vector that makes an angle theta with the positive x axis. Two examples are shown, for theta<90circ (in which case Fx>0 ) and for 90circ<theta<180circ (in which case Fx<0 ). In both cases, Fy>0.
 The components of a vector that makes an angle $\theta$ with the positive $x$ axis. Two examples are shown, for $\theta<90^{\circ}$ (in which case $F_{x}>0$ ) and for $90^{\circ}<\theta<180^{\circ}$ (in which case $F_{x}<0$ ). In both cases, $F_{y}>0$.
 :::
 
@@ -59,6 +60,7 @@ and similarly, $F_{y}=m a_{y}$. In words, each component of the force vector is 
 
 :::{figure} ../images/2024_09_14_9969b06773f10b6936e8g-181.jpg
 :label: fig-8.2
+:alt: If you take the familiar, one-dimensional (see the black dashed line) form of F vector=m a vector, and project it onto orthogonal, rotated axes, you get the general two-dimensional case, showing that each orthogonal component of the acceleration is proportional, via the mass m, to only the corresponding component of the force (Eqs. ).
 If you take the familiar, one-dimensional (see the black dashed line) form of $\vec{F}=m \vec{a}$, and project it onto orthogonal, rotated axes, you get the general two-dimensional case, showing that each orthogonal component of the acceleration is proportional, via the mass $m$, to only the corresponding component of the force (Eqs. {eq}`eq-8.2`).
 :::
 
@@ -73,6 +75,7 @@ The plane in question is determined by the initial velocity (more precisely, the
 
 :::{figure} ../images/2024_09_14_9969b06773f10b6936e8g-182.jpg
 :label: fig-8.3
+:alt: A typical projectile trajectory. The velocity vector (in green) is shown at the initial time, the point of maximum height, and the point where the projectile is back to its initial height.
 A typical projectile trajectory. The velocity vector (in green) is shown at the initial time, the point of maximum height, and the point where the projectile is back to its initial height.
 :::
 
@@ -175,6 +178,7 @@ In real life, of course, there will always be air resistance, and all these resu
 Back in {ref}`Chapter 2 <ch-2>`, I stated without proof that the acceleration of an object sliding, without friction, down an inclined plane making an angle $\theta$ with the horizontal was $g \sin \theta$. I can show you now why this is so, and introduce friction as well.\
 :::{figure} ../images/2024_09_14_9969b06773f10b6936e8g-185.jpg
 :label: fig-8.4
+:alt: A block sliding down an inclined plane. The corresponding free-body diagram is shown on the right.
 A block sliding down an inclined plane. The corresponding free-body diagram is shown on the right.
 :::
 
@@ -284,6 +288,7 @@ As you know by now, the law of inertia states that, in the absence of external f
 Another way to see this is to go back to the definition of acceleration. If an object has a velocity vector $\vec{v}(t)$ at the time $t$, and a different velocity vector $\vec{v}(t+\Delta t)$ at the later time $t+\Delta t$, then its average acceleration over the time interval $\Delta t$ is the quantity $\vec{v}_{a v}=(\vec{v}(t+\Delta t)-\vec{v}(t)) / \Delta t$. This is nonzero even if the speed does not change (that is, even if the two velocity vectors have the same magnitude), as long as they have different directions, as you can see from {numref}`Figure %s <fig-8.5>` below. Thus, motion on a circle (or an arc of a circle), even at constant speed, is accelerated motion, and, by Newton's second law, accelerated motion requires a force to make it happen.\
 :::{figure} ../images/2024_09_14_9969b06773f10b6936e8g-188.jpg
 :label: fig-8.5
+:alt: A particle moving along an arc of a circle of radius R. The positions and velocities at the times t and t+delta t are shown. The diagram on the right shows the velocity difference, delta v vector=v vector(t+delta t)-v vector(t).
 A particle moving along an arc of a circle of radius $R$. The positions and velocities at the times $t$ and $t+\Delta t$ are shown. The diagram on the right shows the velocity difference, $\Delta \vec{v}=\vec{v}(t+\Delta t)-\vec{v}(t)$.
 :::
 
@@ -354,6 +359,7 @@ so knowing the function $\theta(t)$ we can immediately get $x(t)$ and $y(t)$, if
 
 :::{figure} ../images/2024_09_14_9969b06773f10b6936e8g-191.jpg
 :label: fig-8.6
+:alt: A particle moving on a circle. The position vector has length R, so the x and y coordinates are R cos theta and R sin theta, respectively. The conventional positive direction of motion is indicated. The velocity vector is always, as usual, tangent to the trajectory.
 A particle moving on a circle. The position vector has length $R$, so the $x$ and $y$ coordinates are $R \cos \theta$ and $R \sin \theta$, respectively. The conventional positive direction of motion is indicated. The velocity vector is always, as usual, tangent to the trajectory.
 :::
 
@@ -403,6 +409,7 @@ so multiplying Eqs. {eq}`eq-8.32` or {eq}`eq-8.34` by $R$ directly gives the dis
 
 :::{figure} ../images/2024_09_14_9969b06773f10b6936e8g-192.jpg
 :label: fig-8.7
+:alt: A small angular displacement. The distance traveled along the circle, s=R delta theta, is almost identical to the straight-line distance |delta r vector| between the initial and final positions; the two quantities become the same in the limit delta t arrow 0.
 A small angular displacement. The distance traveled along the circle, $s=R \Delta \theta$, is almost identical to the straight-line distance $|\Delta \vec{r}|$ between the initial and final positions; the two quantities become the same in the limit $\Delta t \rightarrow 0$.
 :::
 
@@ -533,11 +540,12 @@ A small object is placed at the top of a smooth (frictionless) dome shaped like 
 (a) At that point, when the object loses contact with the surface, what is the angle that its position vector (with origin at the center of the sphere) makes with the vertical?\
 (b) How far away from the sphere does the object land?
 
-![image](../images/2024_09_14_9969b06773f10b6936e8g-197(1).jpg)
+![Object sliding on a hemispherical dome, panel (a)](../images/2024_09_14_9969b06773f10b6936e8g-197(1).jpg)
 (a)
 
 :::{figure} ../images/2024_09_14_9969b06773f10b6936e8g-197.jpg
 :label: fig-8.8
+:alt: An object (small block) sliding on a hemispherical dome. The drawing (a) shows the angle thetamax at which the object flies off (red dashed line), and a smaller, generic angle theta. The drawing (b) shows the free-body diagram corresponding to the angle theta.
 An object (small block) sliding on a hemispherical dome. The drawing (a) shows the angle $\theta_{\max }$ at which the object flies off (red dashed line), and a smaller, generic angle $\theta$. The drawing (b) shows the free-body diagram corresponding to the angle $\theta$.
 :::
 
@@ -626,6 +634,7 @@ Roadway engineers often bank a curve, especially if it is a very tight turn, so 
 
 :::{figure} ../images/2024_09_14_9969b06773f10b6936e8g-199.jpg
 :label: fig-8.9
+:alt: A car going around a banked curve (sketch and free-body diagram). The center of the circle is towards the right.
 A car going around a banked curve (sketch and free-body diagram). The center of the circle is towards the right.
 :::
 
@@ -725,6 +734,7 @@ In this time, the room rotates counterclockwise through an angle $\Delta \theta_
 
 :::{figure} ../images/2024_09_14_9969b06773f10b6936e8g-202.jpg
 :label: fig-8.10
+:alt: The motion of the puck (cyan) and the wall (magenta) as seen by an inertial observer.
 The motion of the puck (cyan) and the wall (magenta) as seen by an inertial observer.
 :::
 
@@ -752,7 +762,7 @@ Problem 1 A pitcher throws a fastball horizontally at a speed of $42 \mathrm{~m}
 
 Problem 2 Two blocks are connected by a massless string threaded over a massless, frictionless pulley, as shown in the picture. The mass of block 1 is 2 kg and the mass of block 2 is 1.5 kg . The angle of the incline is 30 degrees. There is friction between the block and the inclined surface.
 
-![image](../images/2024_09_14_9969b06773f10b6936e8g-204.jpg)
+![Two blocks connected by a pulley on an inclined plane](../images/2024_09_14_9969b06773f10b6936e8g-204.jpg)
 (a) Start by assuming that the coefficient of static friction is strong enough to keep the system from moving, and draw free-body diagrams for the two blocks. Try to get all the forces approximately to scale. (The following questions may be helpful.)\
 (b) If the system is not moving, what is the magnitude of the tension?\
 (c) What is the magnitude of the normal force?\
@@ -777,7 +787,7 @@ Problem 4 A child is dragging a 2 kg sled through a flat patch of snow (coeffici
 (c) If the child were to suddenly release the rope, what would be the new value of the friction force? What would be the sled's acceleration? (Take the initial direction of motion to be positive.)
 
 Problem 5 A man is swinging an object, attached to a string, in a circle over his head (see the sketches).\
-![image](../images/2024_09_14_9969b06773f10b6936e8g-205.jpg)
+![Man swinging an object on a string in a circle](../images/2024_09_14_9969b06773f10b6936e8g-205.jpg)
 (a) Draw a free-body diagram for the object. Notice the string is not drawn horizontal in the \"side view\" diagram above. Why is that?\
 (b) If the mass of the object is 1 kg , what is the vertical component of the tension?\
 (c) If the object makes 3 turns per second, and the radius of the circle (as seen in the top view) is 0.8 m , what is the centripetal acceleration of the object?\

@@ -72,6 +72,7 @@ For a particle moving in a circle, the line of motion at any time is tangent to 
 
 :::{figure} ../images/2024_09_14_9969b06773f10b6936e8g-212.jpg
 :label: fig-9.1
+:alt: For a particle moving on a straight line, the distance from the point O to the particle's line of motion (dashed line) is equal to r sin theta at every point in the trajectory (two possible points are shown in the figure). The distance is the length of the blue segment. The figure shows there is some freedom in choosing how the angle theta between r vector and v vector is to be measured, since the sine of theta is the same as the sine of pi-theta.
 For a particle moving on a straight line, the distance from the point $O$ to the particle's line of motion (dashed line) is equal to $r \sin \theta$ at every point in the trajectory (two possible points are shown in the figure). The distance is the length of the blue segment. The figure shows there is some freedom in choosing how the angle $\theta$ between $\vec{r}$ and $\vec{v}$ is to be measured, since the sine of $\theta$ is the same as the sine of $\pi-\theta$.
 :::
 
@@ -89,6 +90,7 @@ thing is that, with this definition, the angular momentum will be conserved in a
 
 :::{figure} ../images/2024_09_14_9969b06773f10b6936e8g-213.jpg
 :label: fig-9.2
+:alt: Collision between two particles, 1 and 2, of equal masses. Particle 2 is tied by a massless string to the point O. After the collision, particle 1 is at rest and particle 2 moves in the circle shown.
 Collision between two particles, 1 and 2, of equal masses. Particle 2 is tied by a massless string to the point O. After the collision, particle 1 is at rest and particle 2 moves in the circle shown.
 :::
 
@@ -101,6 +103,7 @@ thin rod of mass $m$ and length $l$ pivoted at one end. What happens now when pa
 
 :::{figure} ../images/2024_09_14_9969b06773f10b6936e8g-214.jpg
 :label: fig-9.3
+:alt: Collision between a particle initially moving with velocity v vector1 and a rod of length l pivoted at an endpoint. The particle strikes the rod perpendicularly, at the other end. After the collision, the particle is moving along the same line with velocity v vectorf, and the rod is rotating around the point O with an angular velocity omega.
 Collision between a particle initially moving with velocity $\vec{v}_{1}$ and a rod of length $l$ pivoted at an endpoint. The particle strikes the rod perpendicularly, at the other end. After the collision, the particle is moving along the same line with velocity $\vec{v}_{f}$, and the rod is rotating around the point O with an angular velocity $\omega$.
 :::
 
@@ -161,6 +164,7 @@ The specific direction of $\vec{A} \times \vec{B}$ depends on the relative orien
 
 :::{figure} ../images/2024_09_14_9969b06773f10b6936e8g-216.jpg
 :label: fig-9.4
+:alt: The "right-hand rule" to determine the direction of the cross product. Line up the first vector with the fingers, and the second vector with the flat of the hand, and the thumb will point in the correct direction. In the first drawing, we are looking at the plane formed by A vector and B vector from above; in the second drawing, we are looking at the plane from below, and calculating B vector times A vector.
 The \"right-hand rule\" to determine the direction of the cross product. Line up the first vector with the fingers, and the second vector with the flat of the hand, and the thumb will point in the correct direction. In the first drawing, we are looking at the plane formed by $\vec{A}$ and $\vec{B}$ from above; in the second drawing, we are looking at the plane from below, and calculating $\vec{B} \times \vec{A}$.
 :::
 
@@ -187,6 +191,7 @@ product $\vec{r} \times \vec{v}$ will always point upwards, along the positive $
 
 :::{figure} ../images/2024_09_14_9969b06773f10b6936e8g-217.jpg
 :label: fig-9.5
+:alt: A particle moving on a circle in the x-y plane. For the direction of rotation shown, the vectors L vector=m r vector times v vector and omega vector lie along the z axis, in the positive direction.
 A particle moving on a circle in the $x-y$ plane. For the direction of rotation shown, the vectors $\vec{L}=m \vec{r} \times \vec{v}$ and $\vec{\omega}$ lie along the $z$ axis, in the positive direction.
 :::
 
@@ -295,6 +300,7 @@ The torque of a force around a point is basically a measure of how effective the
 
 :::{figure} ../images/2024_09_14_9969b06773f10b6936e8g-220.jpg
 :label: fig-9.6
+:alt: The torque around the point O of each of the forces shown is a measure of how effective it is at causing the rod to turn around that point.
 The torque around the point O of each of the forces shown is a measure of how effective it is at causing the rod to turn around that point.
 :::
 
@@ -382,6 +388,7 @@ The minimum number of forces needed to balance the system is four: the weight of
 any of these complications, just to keep the example simple, but they could be dealt with in exactly the same way.\
 :::{figure} ../images/2024_09_14_9969b06773f10b6936e8g-224.jpg
 :label: fig-9.7
+:alt: A ladder leaning against a frictionless wall: sketch and extended free-body diagram.
 A ladder leaning against a frictionless wall: sketch and extended free-body diagram.
 :::
 
@@ -448,6 +455,7 @@ The origin of the condition {eq}`eq-9.34` is fairly straightforward. You can ima
 
 :::{figure} ../images/2024_09_14_9969b06773f10b6936e8g-226.jpg
 :label: fig-9.8
+:alt: Left: illustrating the rolling without slipping condition. The cyan line on the surface has the same length as the cyan-colored arc, and will be the distance traveled by the disk when it has turned through an angle theta. Right: velocities for four points on the edge of the disk. The pink arrows are the velocities in the center of mass frame. In the Earth reference frame, the velocity of the center of mass, v vectorc m, in green, has to be added to each of them. The resultant is shown in blue for two of them.
 Left: illustrating the rolling without slipping condition. The cyan line on the surface has the same length as the cyan-colored arc, and will be the distance traveled by the disk when it has turned through an angle $\theta$. Right: velocities for four points on the edge of the disk. The pink arrows are the velocities in the center of mass frame. In the Earth reference frame, the velocity of the center of mass, $\vec{v}_{c m}$, in green, has to be added to each of them. The resultant is shown in blue for two of them.
 :::
 
@@ -459,6 +467,7 @@ contact with the surface have zero instantaneous velocity. This means that, even
 We do not actually need the force of static friction to keep an object rolling on a flat surface (as I mentioned above, the motion could in principle go on \"unforced\" forever), but things are different on an inclined plane. {numref}`Fig. %s <fig-9.9>` shows an object rolling down an inclined plane, and the corresponding extended free-body diagram.\
 :::{figure} ../images/2024_09_14_9969b06773f10b6936e8g-227.jpg
 :label: fig-9.9
+:alt: An object rolling down an inclined plane, and the extended free-body diagram. Note that neither gravity (applied at the CM) nor the normal force (whose line of action passes through the CM) exert a torque around the center of mass; only the force of static friction, F vectors, does.
 An object rolling down an inclined plane, and the extended free-body diagram. Note that neither gravity (applied at the CM) nor the normal force (whose line of action passes through the CM) exert a torque around the center of mass; only the force of static friction, $\vec{F}^{s}$, does.
 :::
 
@@ -589,7 +598,7 @@ The first couple of additional examples in this section show you have to set up 
 
 Consider an accelerating bicycle. The rider exerts a torque on the pedals, which is transmitted to the rear wheel by the chain (possibly amplified by the gears, etc). How does this \"drive\" torque on the rear wheel (call it $\tau_{d}$ ) relate to the final acceleration of the center of mass of the bicycle?
 
-![image](../images/2024_09_14_9969b06773f10b6936e8g-231.jpg)
+![Accelerating bicycle with drive torque on the rear wheel](../images/2024_09_14_9969b06773f10b6936e8g-231.jpg)
 
 (ch-9-solution)=
 ### Solution
@@ -650,7 +659,7 @@ Consider again the setup illustrated in {numref}`Figure %s <fig-6.2>`, but now a
 
 The figure below shows the setup, plus free-body diagrams for the two blocks (the vertical forces on block 1 have been left out to avoid cluttering the figure, since they are not relevant here), and an extended free-body diagram for the pulley. (You can see from the pulley diagram that there has to be another force acting on it, to balance the two forces shown. This would be a contact force at the axle, directed upwards and to the left. If this was a statics problem, I would have to include it, but since it does not exert a torque around the axis of rotation, it does not contribute to the dynamics of the system, so I have left it out as well.)
 
-![image](../images/2024_09_14_9969b06773f10b6936e8g-233.jpg)
+![Atwood machine with pulley and free-body diagrams](../images/2024_09_14_9969b06773f10b6936e8g-233.jpg)
 
 The key new feature of this problem is that the tension on the string has to have different values on either side of the pulley, because there has to be a net torque on the pulley. Hence, the leftward force on the pulley $\left(F_{r, p l}^{t}\right)$ has to be smaller than the downward force $\left(F_{r, p d}^{t}\right)$.
 
@@ -756,6 +765,6 @@ A very light, inextensible string is wrapped around a cylindrical spool. The end
 
 A $20-\mathrm{kg}$ plank of length $l=4 \mathrm{~m}$ is supported at both ends as shown in the figure. A $60-\mathrm{kg}$ man is standing a distance $l / 3$ from the right end of the plank.
 
-![image](../images/2024_09_14_9969b06773f10b6936e8g-237.jpg)
+![Plank supported at both ends with a man standing on it](../images/2024_09_14_9969b06773f10b6936e8g-237.jpg)
 (a) Draw an extended free-body diagram for the plank. Try to get the scale of the forces at least qualitatively right.\
 (b) Find the upwards force on the plank exerted by each of the two supports.

@@ -43,6 +43,7 @@ As stated in the previous section, we are initially interested only in describin
 
 :::{figure} ../images/2024_09_14_9969b06773f10b6936e8g-022.jpg
 :label: fig-1.1
+:alt: The position vector, r vector, of a point, and its x and y components (the point's coordinates).
 The position vector, $\vec{r}$, of a point, and its $x$ and $y$ components (the point's coordinates).
 :::
 
@@ -60,6 +61,7 @@ units: seconds, minutes, hours, etc.
 
 :::{figure} ../images/2024_09_14_9969b06773f10b6936e8g-024.jpg
 :label: fig-1.2
+:alt: A possible position vs. time graph for an object moving in one dimension.
 A possible position vs. time graph for an object moving in one dimension.
 :::
 
@@ -112,6 +114,7 @@ The components of this vector are just the differences in the position coordinat
 
 :::{figure} ../images/2024_09_14_9969b06773f10b6936e8g-026.jpg
 :label: fig-1.3
+:alt: The displacement vector for a particle that was initially at a point with position vector r vectori and ended up at a point with position vector r vectorf is the difference of the position vectors.
 The displacement vector for a particle that was initially at a point with position vector $\vec{r}_{i}$ and ended up at a point with position vector $\vec{r}_{f}$ is the difference of the position vectors.
 :::
 
@@ -166,6 +169,7 @@ v=\lim _{\Delta t \rightarrow 0} \frac{\Delta x}{\Delta t}=\frac{d x}{d t}
 
 :::{figure} ../images/2024_09_14_9969b06773f10b6936e8g-028.jpg
 :label: fig-1.4
+:alt: The slope of the green segment is the average velocity for the time interval delta t shown. As delta t becomes smaller, this approaches the slope of the tangent at the point (ti, xi)
 The slope of the green segment is the average velocity for the time interval $\Delta t$ shown. As $\Delta t$ becomes smaller, this approaches the slope of the tangent at the point $\left(t_{i}, x_{i}\right)$
 :::
 
@@ -217,6 +221,7 @@ The idea involved is known in calculus as integration, and it goes as follows. S
 
 :::{figure} ../images/2024_09_14_9969b06773f10b6936e8g-030.jpg
 :label: fig-1.5
+:alt: How to get the displacement from the area under the v-vs- t curve.
 How to get the displacement from the area under the $v$-vs- $t$ curve.\
 :::
 
@@ -273,6 +278,7 @@ In any case, graphically, this will look as in {numref}`Figure %s <fig-1.6>`, wh
 
 :::{figure} ../images/2024_09_14_9969b06773f10b6936e8g-033.jpg
 :label: fig-1.6
+:alt: Position vectors and coordinates of a point P in two different reference frames, A and B.
 Position vectors and coordinates of a point $P$ in two different reference frames, A and B .
 :::
 
@@ -341,6 +347,7 @@ The result {eq}`eq-1.19` is just what we would have expected from the examples I
 
 :::{figure} ../images/2024_09_14_9969b06773f10b6936e8g-035.jpg
 :label: fig-1.7
+:alt: Rowing across a river. If you head "straight across" the river (with velocity vector v vectorR b in the moving frame of the river, which is flowing with velocity v vectorE R in the frame of the earth), your actual velocity relative to the shore will be the vector v vectorE b. This is an instance of, with frame A being E (the earth), frame B being R (the river), and "b" (for "boat") standing for the point P we are tracking.
 Rowing across a river. If you head \"straight across\" the river (with velocity vector $\vec{v}_{R b}$ in the moving frame of the river, which is flowing with velocity $\vec{v}_{E R}$ in the frame of the earth), your actual velocity relative to the shore will be the vector $\vec{v}_{E b}$. This is an instance of {numref}`Eq. %s <eq-1.19>`, with frame A being E (the earth), frame B being R (the river), and \"b\" (for \"boat\") standing for the point P we are tracking.
 :::
 
@@ -453,7 +460,7 @@ In SI units, $9 \mathrm{mph}=4.023 \mathrm{~m} / \mathrm{s}$, and $6 \mathrm{~mi
 
 \(d\) The graphs are shown below. Details on how to get them follow.
 
-![image](../images/2024_09_14_9969b06773f10b6936e8g-040.jpg)
+![Position and velocity graphs for the problem](../images/2024_09_14_9969b06773f10b6936e8g-040.jpg)
 
 - First interval: from $t=0$ to $t=180 \mathrm{~s}$ ( 3 min , which is what it would take to cover half the distance to your friend's house at 9 mph ). The velocity is a constant $v=4.023 \mathrm{~m} / \mathrm{s}$. For the position graph, use {numref}`Eq. %s <eq-1.10>` with $x_{i}=0, t_{i}=0$ and $v=4.023 \mathrm{~m} / \mathrm{s}$.
 
@@ -496,10 +503,10 @@ Two girls, Ann and Becky (yes, A and B) decide to have a race while they wait fo
 I am going to solve this in the format that you will be required to use this semester for most of the homework and exam problems. I will not be able to do this for every single example, but you should! Please follow this carefully.
 
 To begin with, you must draw a sketch of the situation described in the problem, detailed enough to include all the relevant information you are given. Here is mine:\
-![image](../images/2024_09_14_9969b06773f10b6936e8g-042(1).jpg)
+![Problem sketch, going out](../images/2024_09_14_9969b06773f10b6936e8g-042(1).jpg)
 going out
 
-![image](../images/2024_09_14_9969b06773f10b6936e8g-042.jpg)
+![Problem sketch, coming back](../images/2024_09_14_9969b06773f10b6936e8g-042.jpg)
 coming back
 
 Note that I have drawn one picture for each half of the race, and that all the information given in the text of the problem is there. The figure makes it clear also the notation I will be using for each of the girls' velocities, and to see at a glance what is happening.
@@ -569,7 +576,7 @@ Part (e): You may find this a bit surprising, but if you think about it the expl
 (ch-1-problem-1)=
 ### Problem 1
 
-![image](../images/2024_09_14_9969b06773f10b6936e8g-045.jpg)
+![Position versus time graph of an object in motion](../images/2024_09_14_9969b06773f10b6936e8g-045.jpg)
 
 The above figure is the position (in meters) versus time (in seconds) graph of an object in motion. Only the segments between $t=1 \mathrm{~s}$ and $t=2 \mathrm{~s}$, and between $t=4 \mathrm{~s}$ and $t=5 \mathrm{~s}$, are straight lines. The peak of the curve is at $t=3 \mathrm{~s}, x=4 \mathrm{~m}$.
 
@@ -590,7 +597,7 @@ A particle is initially at $x_{i}=3 \mathrm{~m}, y_{i}=-5 \mathrm{~m}$, and afte
 (b) What are the components of the displacement vector?\
 (c) What are the magnitude and direction of the displacement vector? (You can specify the direction by the angle it makes with either the positive $x$ or the positive $y$ axis.)
 
-![image](../images/2024_09_14_9969b06773f10b6936e8g-046.jpg)
+![Coordinate grid for drawing position and displacement vectors](../images/2024_09_14_9969b06773f10b6936e8g-046.jpg)
 
 (ch-1-problem-3)=
 ### Problem 3
@@ -604,7 +611,7 @@ The picture below shows the velocity versus time graph of the first 21 seconds o
 (a) Who is ahead at $t=10 \mathrm{~s}$, and by how much?\
 (b) Who passes the 100 m marker first?
 
-![image](../images/2024_09_14_9969b06773f10b6936e8g-046(1).jpg)
+![Position versus time graph for two runners](../images/2024_09_14_9969b06773f10b6936e8g-046(1).jpg)
 
 (ch-1-problem-5)=
 ### Problem 5

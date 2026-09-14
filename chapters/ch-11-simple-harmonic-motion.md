@@ -11,6 +11,7 @@ It is probably not an exaggeration to suggest that we are all introduced to osci
 
 :::{figure} ../images/2024_09_14_9969b06773f10b6936e8g-271.jpg
 :label: fig-11.1
+:alt: A simple pendulum. In (a), the equilibrium position, the tension and gravity forces balance out. In (b), they combine to produce a restoring force (in blue) pointing back towards equilibrium. In (c), the bob is passing through equilibrium and the net force on it at that instant is again zero, but its momentum keeps it going. At (d) we have the mirror image of (b).
 A simple pendulum. In (a), the equilibrium position, the tension and gravity forces balance out. In (b), they combine to produce a restoring force (in blue) pointing back towards equilibrium. In (c), the bob is passing through equilibrium and the net force on it at that instant is again zero, but its momentum keeps it going. At (d) we have the mirror image of (b).
 :::
 
@@ -50,6 +51,7 @@ What this second property means is that, for instance, with reference to {numref
 
 :::{figure} ../images/2024_09_14_9969b06773f10b6936e8g-273.jpg
 :label: fig-11.2
+:alt: A mass attached to a spring and sliding on a frictionless surface. Figure (a) shows the spring in its relaxed state (the "equilibrium" position for the mass, at coordinate x0 ). If displaced from equilibrium a distance A and released (b), the mass will perform simple harmonic oscillations with amplitude A.
 A mass attached to a spring and sliding on a frictionless surface. Figure (a) shows the spring in its relaxed state (the \"equilibrium\" position for the mass, at coordinate $x_{0}$ ). If displaced from equilibrium a distance $A$ and released (b), the mass will perform simple harmonic oscillations with amplitude $A$.
 :::
 
@@ -73,6 +75,7 @@ Here, $k$ is the spring constant, and $m$ the mass of the object (remember the s
 
 :::{figure} ../images/2024_09_14_9969b06773f10b6936e8g-274.jpg
 :label: fig-11.3
+:alt: A particle moving on a circle with constant angular velocity omega. Assuming theta=0 at t=0, we have theta=omega t, and therefore the particle's x coordinate is given by the function x(t)=R cos (omega t). This means the corresponding point on the x axis (the red dot) performs simple harmonic motion with angular frequency omega as the particle rotates.
 A particle moving on a circle with constant angular velocity $\omega$. Assuming $\theta=0$ at $t=0$, we have $\theta=\omega t$, and therefore the particle's $x$ coordinate is given by the function $x(t)=R \cos (\omega t)$. This means the corresponding point on the $x$ axis (the red dot) performs simple harmonic motion with angular frequency $\omega$ as the particle rotates.
 :::
 
@@ -123,6 +126,7 @@ The position, velocity and acceleration graphs for the motion {eq}`eq-11.3` are 
 
 :::{figure} ../images/2024_09_14_9969b06773f10b6936e8g-276.jpg
 :label: fig-11.4
+:alt: Position, velocity and acceleration as a function of time for an object performing simple harmonic motion according to.
 Position, velocity and acceleration as a function of time for an object performing simple harmonic motion according to {numref}`Eq. %s <eq-11.3>`.
 :::
 
@@ -178,6 +182,7 @@ so the total energy of the system is constant (independent of time), at it shoul
 
 :::{figure} ../images/2024_09_14_9969b06773f10b6936e8g-278.jpg
 :label: fig-11.5
+:alt: Kinetic (red), potential (blue) and total (black) energy for the oscillator shown in.
 Kinetic (red), potential (blue) and total (black) energy for the oscillator shown in {numref}`Fig. %s <fig-11.4>`.
 :::
 
@@ -202,6 +207,7 @@ This is a remarkable result, because the force of gravity has disappeared comple
 
 :::{figure} ../images/2024_09_14_9969b06773f10b6936e8g-279.jpg
 :label: fig-11.6
+:alt: (a) An ideal (massless) spring hanging from the ceiling, in its relaxed position. (b) With a mass m hanging from its end, the spring stretches to a new length lprime, so that k(lprime-l)=m g. (c) If the mass is now displaced from this equilibrium position (labeled y0prime in the figure) it will perform harmonic oscillations symmetrically around the point y0prime, with the same frequency as if the spring was horizontal.
 (a) An ideal (massless) spring hanging from the ceiling, in its relaxed position. (b) With a mass $m$ hanging from its end, the spring stretches to a new length $l^{\prime}$, so that $k\left(l^{\prime}-l\right)=m g$. (c) If the mass is now displaced from this equilibrium position (labeled $y_{0}^{\prime}$ in the figure) it will perform harmonic oscillations symmetrically around the point $y_{0}^{\prime}$, with the same frequency as if the spring was horizontal.
 :::
 
@@ -241,6 +247,7 @@ We could analyze the motion of the bob by using the general methods introduced i
 
 :::{figure} ../images/2024_09_14_9969b06773f10b6936e8g-281.jpg
 :label: fig-11.7
+:alt: A simple pendulum. The mass of the bob is m, the length of the string is l, and torques are calculated around the point of suspension O. The counterclockwise direction is taken as positive.
 A simple pendulum. The mass of the bob is $m$, the length of the string is $l$, and torques are calculated around the point of suspension O. The counterclockwise direction is taken as positive.
 :::
 
@@ -316,11 +323,12 @@ This depends only on the length of the pendulum, and remains constant even as th
 
 By a \"physical pendulum\" one means typically any pendulum-like device for which the moment of inertia is not given by the simple expression $I=m l^{2}$. This means that the mass is not concentrated into a single point-like particle a distance $l$ away from the point of suspension; rather, for example, the bob could have a size that is not negligible compared to $l$ (as in {numref}`Fig. %s <fig-11.1>`), or the \"string\" could have a substantial mass of its own - it could, for instance, be a chain, like in a playground swing, or a metal rod, as in most pendulum clocks.
 
-![image](../images/2024_09_14_9969b06773f10b6936e8g-283(1).jpg)
+![Physical pendulum with distributed mass, panel (a)](../images/2024_09_14_9969b06773f10b6936e8g-283(1).jpg)
 (a)
 
 :::{figure} ../images/2024_09_14_9969b06773f10b6936e8g-283.jpg
 :label: fig-11.8
+:alt: The "physical pendulum." Figure (a) shows an arbitrary distribution of mass, pivoted at point O, with center of mass at CM, oscillating under the restoring torque provided by gravity. Figure (b) shows the special case of a thin rod of length l pivoted at one end (the distance d=l / 2 in this case). In both cases, there is an additional force (not shown) acting at the pivot point, to balance gravity.
 The \"physical pendulum.\" Figure (a) shows an arbitrary distribution of mass, pivoted at point O, with center of mass at CM , oscillating under the restoring torque provided by gravity. Figure (b) shows the special case of a thin rod of length $l$ pivoted at one end (the distance $d=l / 2$ in this case). In both cases, there is an additional force (not shown) acting at the pivot point, to balance gravity.
 :::
 
@@ -382,7 +390,7 @@ Consider a block-spring system inside a box, as shown in the figure. The block i
 
 Suppose you pull the block 10 cm to the right and release it. The angular frequency of the oscillations is $30 \mathrm{rad} / \mathrm{s}$. Neglect friction between the block and the bottom of the box.
 
-![image](../images/2024_09_14_9969b06773f10b6936e8g-286.jpg)
+![Block on a spring inside a horizontal box](../images/2024_09_14_9969b06773f10b6936e8g-286.jpg)
 (a) What is the spring constant?\
 (b) What will be the amplitude of the oscillations?\
 (c) Taking to the right to be positive, at what point in the oscillation is the velocity minimum and what is its minimum value?\
@@ -445,7 +453,7 @@ To get an accelerometer, we provide the box with some readout mechanism that can
 
 While working on the lab on torques, you notice that a meter stick suspended from the middle behaves a little like a pendulum, in that it performs very slow oscillations when you tilt it slightly. Intrigued, you notice that it is suspended by a simple loop of string tied in a knot at the top (see figure). You measure the period of the oscillations to be about 5 s , and the width of the stick to be about 2.5 cm .
 
-![image](../images/2024_09_14_9969b06773f10b6936e8g-288.jpg)
+![Meter stick suspended as a physical pendulum](../images/2024_09_14_9969b06773f10b6936e8g-288.jpg)
 (a) What does this tell you about the quantity $I / M$, where $M$ is the mass of the stick, and $I$ its moment of inertia around a certain point?\
 (b) What is the \"certain point\" mentioned in (a)?
 
@@ -453,7 +461,7 @@ While working on the lab on torques, you notice that a meter stick suspended fro
 ### Solution
 
 As the picture below shows, the stick will behave like a physical pendulum, oscillating around the point of suspension O, which in this case is just next to the stick, where the knot is. As seen in the blown-up detail, if the width of the stick is $w$, the center of mass of the stick is located a distance $d=w / 2$ away from the point of suspension:\
-![image](../images/2024_09_14_9969b06773f10b6936e8g-288(1).jpg)
+![Physical pendulum, panel (a)](../images/2024_09_14_9969b06773f10b6936e8g-288(1).jpg)
 
 As shown in {ref}`Section 11.3.2 <sec-11.3.2>`, we have then
 
@@ -501,6 +509,7 @@ The figure shows an example of how this would go, for the following choice of pa
 
 :::{figure} ../images/2024_09_14_9969b06773f10b6936e8g-291.jpg
 :label: fig-11.9
+:alt: Damped oscillations.
 Damped oscillations.
 :::
 
@@ -520,14 +529,15 @@ Note: Just for the record, this is not the way dissipation in simple harmonic mo
 
 Suppose that you want to try and duplicate Cavendish's experiment to measure directly the gravitational force between two masses (and hence, indirectly, the value of $G$ ). You take two relatively small, identical objects, each of mass $m$, and attach them to the ends of a rod of length $l$ (let us say the mass of the rod is negligible, for simplicity), making a sort of dumbbell; then you suspend this from the ceiling, by the midpoint, using a nylon line.
 
-![image](../images/2024_09_14_9969b06773f10b6936e8g-292(1).jpg)
+![Torsion balance setup, panel (a)](../images/2024_09_14_9969b06773f10b6936e8g-292(1).jpg)
 (a)
 
-![image](../images/2024_09_14_9969b06773f10b6936e8g-292(2).jpg)
+![Torsion balance setup, panel (b)](../images/2024_09_14_9969b06773f10b6936e8g-292(2).jpg)
 (b)
 
 :::{figure} ../images/2024_09_14_9969b06773f10b6936e8g-292.jpg
 :label: fig-11.10
+:alt: (a) Torsion balance. The extremes of the oscillation are drawn in black and gray, respectively. (b) The view from the top. The dashed line indicates the equilibrium position. (c) In the presence of two nearby large masses, the equilibrium position is tilted very slightly; the light blue lines in the background show the oscillation in the absence of the masses, for reference.
 (a) Torsion balance. The extremes of the oscillation are drawn in black and gray, respectively. (b) The view from the top. The dashed line indicates the equilibrium position. (c) In the presence of two nearby large masses, the equilibrium position is tilted very slightly; the light blue lines in the background show the oscillation in the absence of the masses, for reference.
 :::
 

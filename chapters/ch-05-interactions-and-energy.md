@@ -60,6 +60,7 @@ This is a statement of conservation of energy under the gravitational interactio
 
 :::{figure} ../images/2024_09_14_9969b06773f10b6936e8g-109.jpg
 :label: fig-5.1
+:alt: Potential and kinetic energy as a function of time for a system consisting of the earth and a 1-kg object sent upwards with vi=2 ~m / s from a height of 0.5 m.
 Potential and kinetic energy as a function of time for a system consisting of the earth and a 1-kg object sent upwards with $v_{i}=2 \mathrm{~m} / \mathrm{s}$ from a height of 0.5 m .
 :::
 
@@ -101,6 +102,7 @@ As a result of the collision, the spring compresses and undergoes \"half a cycle
 
 :::{figure} ../images/2024_09_14_9969b06773f10b6936e8g-111.jpg
 :label: fig-5.2
+:alt: Potential and kinetic energy as a function of time for a system of two carts colliding and compressing a spring in the process.
 Potential and kinetic energy as a function of time for a system of two carts colliding and compressing a spring in the process.
 :::
 
@@ -122,6 +124,7 @@ dimension, then, we have a situation where, once the initial conditions (the par
 
 :::{figure} ../images/2024_09_14_9969b06773f10b6936e8g-113.jpg
 :label: fig-5.3
+:alt: A hypothetical potential energy curve for a particle in one dimension. The horizontal red line shows the total mechanical energy under the assumption that the particle starts out at x=-2 ~m with Ki=8 ~J. The green line assumes the particle starts instead from rest at x=1 ~m.
 A hypothetical potential energy curve for a particle in one dimension. The horizontal red line shows the total mechanical energy under the assumption that the particle starts out at $x=-2 \mathrm{~m}$ with $K_{i}=8 \mathrm{~J}$. The green line assumes the particle starts instead from rest at $x=1 \mathrm{~m}$.
 :::
 
@@ -191,6 +194,7 @@ where $K$ is the total, macroscopic, kinetic energy; $U$ the sum of all the appl
 
 :::{figure} ../images/2024_09_14_9969b06773f10b6936e8g-118.jpg
 :label: fig-5.4
+:alt: Energy bar diagrams for a system formed by the earth and a ball thrown downwards. (a) As the ball leaves the hand. (b) Just before it hits the ground. (c) During the collision, at the time of maximum compression. (d) At the top of the first bounce. The total number of energy "units" is the same in all the diagrams, as required by the principle of conservation of energy. From the diagrams you can tell that the coefficient of restitution e=square root of 7 / 9.
 Energy bar diagrams for a system formed by the earth and a ball thrown downwards. (a) As the ball leaves the hand. (b) Just before it hits the ground. (c) During the collision, at the time of maximum compression. (d) At the top of the first bounce. The total number of energy \"units\" is the same in all the diagrams, as required by the principle of conservation of energy. From the diagrams you can tell that the coefficient of restitution $e=\sqrt{7 / 9}$.
 :::
 
@@ -416,6 +420,7 @@ and now do a parametric plot of $U$ versus $x_{2}-x_{1}$, using $t$ as a paramet
 
 :::{figure} ../images/2024_09_14_9969b06773f10b6936e8g-126.jpg
 :label: fig-5.5
+:alt: The potential energy function reconstructed from the information available for the collision shown in Figs. 3.1, 3.4, 4.5. No information can be gathered from those figures (nor from the explicit expressions and above) on the values of U for x2-x1<0.28 ~mm, the distance of closest approach of the two carts.
 The potential energy function reconstructed from the information available for the collision shown in Figs. 3.1, 3.4, 4.5. No information can be gathered from those figures (nor from the explicit expressions {eq}`eq-5.20` and {eq}`eq-5.21` above) on the values of $U$ for $x_{2}-x_{1}<0.28 \mathrm{~mm}$, the distance of closest approach of the two carts.
 :::
 
@@ -438,6 +443,7 @@ A \"ballistic pendulum\" is a device (now largely obsolete, but very useful in i
 
 :::{figure} ../images/2024_09_14_9969b06773f10b6936e8g-127.jpg
 :label: fig-5.6
+:alt: Ballistic pendulum. (a) Before the bullet hits. (b) After the bullet hits and is embedded in the block, at the maximum height of the swing.
 Ballistic pendulum. (a) Before the bullet hits. (b) After the bullet hits and is embedded in the block, at the maximum height of the swing.
 :::
 
@@ -453,7 +459,7 @@ energy.\
 (e) If the coefficient of restitution does not change, how high would the ball rise on a second bounce?\
 (f) On the graphs below, draw the energy bar diagrams for the system: (1) as the ball leaves your hand; (2) just before it hits the ground (assume $h=0$ for practical purposes); (3) just after it leaves the ground on its way up ( $h=0$ still), and (4) at the top of its (first) bounce. Make sure to do this to scale, consistent with the values for the energies you have calculated above.
 
-![image](../images/2024_09_14_9969b06773f10b6936e8g-128.jpg)
+![Energy bar diagrams for the bouncing ball problem](../images/2024_09_14_9969b06773f10b6936e8g-128.jpg)
 
 (ch-5-problem-4)=
 ### Problem 4
